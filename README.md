@@ -39,14 +39,4 @@ Use STT para transcrever áudio em texto.
 
 
 
-Exemplo rápido
-
-TTS:
-
-speech_synthesizer.speak_text_async("Olá! Teste TTS").get()
-
-
-STT:
-
-result = speech_recognizer.recognize_once_async().get()
-print(result.text)
+Pode usar: PTT-20260119-WA0004.opus (teste)
